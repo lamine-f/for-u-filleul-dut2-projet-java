@@ -1,0 +1,38 @@
+Conception de la base de données : 
+    -La première étape consiste à concevoir la structure de la base de données qui stockera les informations sur les tâches.
+
+
+Développement de l'interface utilisateur : 
+    -L'interface utilisateur de l'application doit permettre aux utilisateurs:
+        *d'ajouter
+        *supprimer 
+        *modifier des tâches
+        *de les marquer comme terminées ou en cours
+
+
+Notifications : L'application peut également envoyer des notifications pour rappeler aux utilisateurs les tâches à accomplir.
+
+Exportation des données : Il peut être utile de permettre aux utilisateurs d'exporter leurs tâches dans différents formats, tels que CSV ou JSON.
+
+Tests et validation : Il est important de tester l'application et de valider les données entrées par les utilisateurs pour garantir son bon fonctionnement.
+
+
+
+auth
+nom_utilisateur
+mot_de_passe
+
+
+client 
+prenom
+nom
+email
+
+*
+
+taches
+nom
+dateCreation
+dateRealisation
+contenue
+termine
